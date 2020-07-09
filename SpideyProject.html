@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+
+  <title>Spiderman Is Way Cooler Than You: Deal With It</title>
+  <script type="text/javascript">
+
+    var answers = ["It is certain", "It is decidedly so", "Without a doubt", "Yes - definitely","You may rely on it","As I see it, yes", "Most likely",  "Outlook good", "Yes", "Signs point to yes", "Don't count on it",  "My reply is no","My sources say no", "Outlook not so good","Very doubtful", "Reply hazy, try again",  "Ask again later", "Better not tell you now","Cannot predict now","Concentrate and ask again"];
+
+    window.onload = function() {
+
+       var eight = document.getElementById("eight");
+
+       var answer = document.getElementById("answer");
+
+       var eightball = document.getElementById("eight-ball");
+
+       var question = document.getElementById("question");
+
+       
+
+       eightball.addEventListener("click", function() {
+
+         if (question.value.length < 0) {
+
+           alert('Enter a question!');
+
+         } else {
+
+           eight.innerText = "";
+
+           var num = Math.floor(Math.random() * Math.floor(answers.length));
+
+           answer.innerText = answers[num];
+
+         }
+
+       });
+
+    };
+
+  </script>
+
+  
+
+  <style type="text/css">
+
+    h1 { font-weight: bold; font-size: 1.2em;}
+
+    
+
+    #content { 
+
+     width: 500px; 
+
+     margin: 0 auto; 
+
+     margin-top: 50px; 
+
+     text-align: center; 
+
+     font-family: 'Times', arial; 
+
+     font-weight: 80;
+
+   }
+
+    
+
+    div.eight-ball {
+
+      background-color: rgb(0, 255, 221);
+
+      border: 1px solid rgb(0, 255, 221);
+
+      border-radius: 50%;
+
+      width: 300px;
+
+      height: 300px;
+
+      margin: 0 auto;
+
+      margin-bottom: 30px;
+
+      margin-top: 30px;
+
+    }
+
+    
+
+    div.answer {
+
+      background-color: #333;
+
+      border: 1px solid #333;
+
+      border-radius: 50%;
+
+      width: 50%;
+
+      height: 50%;
+
+      margin: 25% auto;
+
+    }
+
+    
+
+    p#eight {
+
+      font-size: 5em;
+
+      margin: 20% auto;
+
+      color: white;
+
+    }
+
+    
+
+    p#answer {
+
+      padding: 23px;
+
+      color: lightblue;
+
+      letter-spacing: 2px;
+
+      font-size:18px;
+
+    }
+
+    
+
+    #question {
+
+      margin: 20px;
+
+      padding: 10px;
+
+      width: 400px;
+
+      font-size:22px;
+
+    }
+
+    
+
+    #info {
+
+      font-size: 22px;
+
+    }
+    h2 {
+        color: rgb(0, 0, 0);
+    }  
+    
+    body {
+        background-color:  rgb(20, 111, 216);
+    }
+
+    
+
+  </style>
+
+  
+
+ </head>
+
+ <body>
+
+  <div id="content">
+
+<h1 style = "font-family: cursive;font-size: 35px;color: rgba(226, 19, 19, 0.959);">The Story of Spiderman: Homecoming</h1>
+
+<img src="https://lh3.googleusercontent.com/-TcNbqqqzjSE/XweC22nZdjI/AAAAAAAACFA/OTP6qMPKyGweiAopoggZGw-eBeeR8o5ngCK8BGAsYHg/s0/2020-07-09.png"alt="Spiderman: Homecoming" width="150"> 
+
+<h2 style = "font-family: cursive;font-size:35px;color: rgba(226, 19, 19, 0.959);">LISTEN CLOSELY</h2>
+
+ 
+<p style = "font-family: cursive;font-size:35px;color: rgba(226, 19, 19, 0.959);">For This Is The Adventure of Spiderman</p>
+
+<p style = "font-family: cursive;font-size:35px;color: rgba(226, 19, 19, 0.959);">Peter Parker, a poor bullied kid, a normal kid if you like<br>
+    <img src="https://lh3.googleusercontent.com/-vpPt1x23mPQ/XweGn5SJOJI/AAAAAAAACFY/4WuqIKLitQsaedZvvQjETg2IWT_ql3DlACK8BGAsYHg/s0/2020-07-09.jpg"> 
+            A kid with a best friend, Ned,<br>
+    <img src="https://lh3.googleusercontent.com/-D6DEmFG5oD0/XweG6nDR_gI/AAAAAAAACFg/GvSD07cAxcsMQOxT4H2gcE0g-cUTo8DPgCK8BGAsYHg/s0/2020-07-09.jpg">
+    A crush, Liz,<br>
+    <img src="https://lh3.googleusercontent.com/-mtrzaYrzUJw/XweHbbr1-PI/AAAAAAAACFo/M33PXaKmqQgPqfq1x4Rn87m800J_hEYlgCK8BGAsYHg/s0/2020-07-09.jpg">
+    And a secret identity, Spiderman,<br>
+    <img src="https://lh3.googleusercontent.com/-U4AYDBBNEjE/XweIO1lg5oI/AAAAAAAACFw/YMwJZSXSLisqbN0Le45dP7CaeqO_4XacgCK8BGAsYHg/s0/2020-07-09.jpg">
+    But between school and his superhero duties, many things are happening<br></p>
+
+
+  </div>
+
+ </body>
+
+</html>
